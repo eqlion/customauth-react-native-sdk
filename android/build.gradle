@@ -48,6 +48,8 @@ repositories {
 
 dependencies {
     api 'com.facebook.react:react-native:+'
-    api 'org.torusresearch:customauth-android-sdk:5.0.1'
+    // api 'org.torusresearch:customauth-android-sdk:5.0.1'
+    implementation 'com.github.eqlion:customauth-android-sdk:21c20ec55a93c1ba4df76bd09678416c9ebc3d6f'
+
 }
   

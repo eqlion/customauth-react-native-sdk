@@ -14,10 +14,11 @@
 		51BF3483257A18DB0015DA93 /* Torus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF3482257A18DB0015DA93 /* Torus.swift */; };
 		51BF3486257A19050015DA93 /* Torus.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF3485257A19050015DA93 /* Torus.m */; };
 		51F8ADCE257E29FB00E86091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F8ADCD257E29FB00E86091 /* LaunchScreen.storyboard */; };
-		546956E6C67BCD0D6C667027 /* libPods-RNCustomAuthSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D28D3947882D3DCB97C06B /* libPods-RNCustomAuthSDK.a */; };
+		B3A1603CCCF08DA8AC308D11 /* libPods-RNCustomAuthSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C622F6659CFDCD82660953A7 /* libPods-RNCustomAuthSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44B58BBBA1FA2CF4F822AE70 /* Pods-RNCustomAuthSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCustomAuthSDK.release.xcconfig"; path = "Target Support Files/Pods-RNCustomAuthSDK/Pods-RNCustomAuthSDK.release.xcconfig"; sourceTree = "<group>"; };
 		516AE980258770D800278C89 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		516BACC2257F9DC30062EE71 /* RNTorus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTorus.h; sourceTree = "<group>"; };
 		51819AE0257F6ECE006B6F39 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
@@ -31,9 +32,8 @@
 		51BF3485257A19050015DA93 /* Torus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Torus.m; sourceTree = "<group>"; };
 		51BF3631257A4E4F0015DA93 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
 		51F8ADCD257E29FB00E86091 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		87D669837AA7295BDB2DF5D5 /* Pods-RNCustomAuthSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCustomAuthSDK.release.xcconfig"; path = "Target Support Files/Pods-RNCustomAuthSDK/Pods-RNCustomAuthSDK.release.xcconfig"; sourceTree = "<group>"; };
-		98D28D3947882D3DCB97C06B /* libPods-RNCustomAuthSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNCustomAuthSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8EB2468ABAD32930440DEB7 /* Pods-RNCustomAuthSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCustomAuthSDK.debug.xcconfig"; path = "Target Support Files/Pods-RNCustomAuthSDK/Pods-RNCustomAuthSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		6183F4579317F9B47842DBBC /* Pods-RNCustomAuthSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNCustomAuthSDK.debug.xcconfig"; path = "Target Support Files/Pods-RNCustomAuthSDK/Pods-RNCustomAuthSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C622F6659CFDCD82660953A7 /* libPods-RNCustomAuthSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNCustomAuthSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546956E6C67BCD0D6C667027 /* libPods-RNCustomAuthSDK.a in Frameworks */,
+				B3A1603CCCF08DA8AC308D11 /* libPods-RNCustomAuthSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +58,16 @@
 		2AB2FA82E9628F7EDB89E551 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8EB2468ABAD32930440DEB7 /* Pods-RNCustomAuthSDK.debug.xcconfig */,
-				87D669837AA7295BDB2DF5D5 /* Pods-RNCustomAuthSDK.release.xcconfig */,
+				6183F4579317F9B47842DBBC /* Pods-RNCustomAuthSDK.debug.xcconfig */,
+				44B58BBBA1FA2CF4F822AE70 /* Pods-RNCustomAuthSDK.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		40604F3177D7D2FD4F749A31 /* Frameworks */ = {
+		406E351F9C41FB847D626DB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98D28D3947882D3DCB97C06B /* libPods-RNCustomAuthSDK.a */,
+				C622F6659CFDCD82660953A7 /* libPods-RNCustomAuthSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 				134814211AA4EA7D00B7C361 /* Products */,
 				2AB2FA82E9628F7EDB89E551 /* Pods */,
 				51BF345F257A18350015DA93 /* RNCustomAuthSDK.app */,
-				40604F3177D7D2FD4F749A31 /* Frameworks */,
+				406E351F9C41FB847D626DB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,13 +109,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51BF3475257A18360015DA93 /* Build configuration list for PBXNativeTarget "RNCustomAuthSDK" */;
 			buildPhases = (
-				0265A82C857DE77D3F42B2B5 /* [CP] Check Pods Manifest.lock */,
+				A9712F6911887A3007C6E733 /* [CP] Check Pods Manifest.lock */,
 				51BF3559257A2DCB0015DA93 /* Start Packager */,
 				51BF345B257A18350015DA93 /* Sources */,
 				51BF345C257A18350015DA93 /* Frameworks */,
 				51BF345D257A18350015DA93 /* Resources */,
 				51BF3558257A2D9B0015DA93 /* Bundle React Native code and images */,
-				84A2D13A2BD9EFD5FD8B1BED /* [CP] Copy Pods Resources */,
+				6A7BEC1D2998661DAFDB20DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,28 +175,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0265A82C857DE77D3F42B2B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNCustomAuthSDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		51BF3558257A2D9B0015DA93 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,7 +211,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"srcroot is ${SRCROOT}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 		};
-		84A2D13A2BD9EFD5FD8B1BED /* [CP] Copy Pods Resources */ = {
+		6A7BEC1D2998661DAFDB20DE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,6 +229,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNCustomAuthSDK/Pods-RNCustomAuthSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9712F6911887A3007C6E733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNCustomAuthSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -273,7 +273,7 @@
 /* Begin XCBuildConfiguration section */
 		51BF3476257A18360015DA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8EB2468ABAD32930440DEB7 /* Pods-RNCustomAuthSDK.debug.xcconfig */;
+			baseConfigurationReference = 6183F4579317F9B47842DBBC /* Pods-RNCustomAuthSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -306,7 +306,7 @@
 		};
 		51BF3477257A18360015DA93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87D669837AA7295BDB2DF5D5 /* Pods-RNCustomAuthSDK.release.xcconfig */;
+			baseConfigurationReference = 44B58BBBA1FA2CF4F822AE70 /* Pods-RNCustomAuthSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
