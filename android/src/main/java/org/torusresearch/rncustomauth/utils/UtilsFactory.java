@@ -194,6 +194,9 @@ public final class UtilsFactory {
         if (jwtParams.hasKey("additionalParams")) {
             builder.setAdditionalParams(toStringHashMap(jwtParams.getMap("additionalParams")));
         }
+        if (jwtParams.hasKey("id_token")) {
+            builder.setIdToken(jwtParams.getString("id_token"));
+        }
 
         return builder.build();
     }
